@@ -1,0 +1,2341 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.20f1 (0e25a174756c) revision 927137'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ko' Physical Memory: 7489 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.20f1-x86_64\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/user/HW1_201912312
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+2294
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/user/HW1_201912312
+C:/Users/user/HW1_201912312
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6180] Host "[IP] 192.168.65.194 [Port] 0 [Flags] 2 [Guid] 2793569858 [EditorId] 2793569858 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-15RHFOB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6180] Host "[IP] 192.168.65.194 [Port] 0 [Flags] 2 [Guid] 2793569858 [EditorId] 2793569858 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-15RHFOB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 11.18 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.20f1 (0e25a174756c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.20f1-x86_64/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/HW1_201912312/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon (TM) Graphics (ID=0x15e7)
+    Vendor:   ATI
+    VRAM:     3744 MB
+    Driver:   31.0.21912.2004
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.20f1-x86_64/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.20f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.20f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.20f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008901 seconds.
+- Loaded All Assemblies, in  0.874 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.710 seconds
+Domain Reload Profiling: 1577ms
+	BeginReloadAssembly (342ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (333ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (330ms)
+			TypeCache.Refresh (326ms)
+				TypeCache.ScanAssembly (297ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (711ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (590ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (14ms)
+			ProcessInitializeOnLoadAttributes (424ms)
+			ProcessInitializeOnLoadMethodAttributes (120ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\HW1_201912312\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\HW1_201912312\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.372 seconds
+Refreshing native plugins compatible for Editor in 6.70 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.212 seconds
+Domain Reload Profiling: 3568ms
+	BeginReloadAssembly (1114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (1067ms)
+		LoadAssemblies (945ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (399ms)
+			TypeCache.Refresh (330ms)
+				TypeCache.ScanAssembly (296ms)
+			BuildScriptInfoCaches (54ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1213ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (785ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (602ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.19 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 94 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3988 unused Assets / (3.4 MB). Loaded Objects now: 4645.
+Memory consumption went from 149.1 MB to 145.8 MB.
+Total: 15.774800 ms (FindLiveObjects: 1.473100 ms CreateObjectMapping: 1.524000 ms MarkObjects: 9.284500 ms  DeleteObjects: 3.491400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2431.946263 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-253.dae
+  artifactKey: Guid(b027c981191584a189e135290bedb10e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-253.dae using Guid(b027c981191584a189e135290bedb10e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce8edc109cae11dc955c85c6df5677e4') in 0.2572428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-204.dae
+  artifactKey: Guid(778447bbf8b24468c8260d27a21ceec3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-204.dae using Guid(778447bbf8b24468c8260d27a21ceec3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c49e09b7fb9e719f3b64c52f8441ffa7') in 0.0338306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-201.dae
+  artifactKey: Guid(29a25c0e4ffb14e4fbedacbe0bf39133) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-201.dae using Guid(29a25c0e4ffb14e4fbedacbe0bf39133) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d4e490d72db403506070939dbf43d5b') in 0.0276599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-211.dae
+  artifactKey: Guid(a85d2ce62d441400ba56e4a4004ea8fe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-211.dae using Guid(a85d2ce62d441400ba56e4a4004ea8fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04f3209768cf4ded754484d0ddf83b12') in 0.0258343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-198.dae
+  artifactKey: Guid(e759a71bd35514bee973cb708a558ec2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-198.dae using Guid(e759a71bd35514bee973cb708a558ec2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ae61039aebfcde64ac149b662647f4f') in 0.02664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-240.dae
+  artifactKey: Guid(53a1d3d7be68d4f71aa57b7b81b463d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-240.dae using Guid(53a1d3d7be68d4f71aa57b7b81b463d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0da43d617193eccec730ae9ded50c84d') in 0.0298423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-250.dae
+  artifactKey: Guid(25d806f28f8a64778bcc05e795b74217) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-250.dae using Guid(25d806f28f8a64778bcc05e795b74217) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3cb28335506dbf30271aaeabcf56fb2d') in 0.0281532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-163.dae
+  artifactKey: Guid(381ac8023627a4d3d8f7a83e788cfaad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-163.dae using Guid(381ac8023627a4d3d8f7a83e788cfaad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f303b973559ae35fe9686f8df77ee8e6') in 0.0256361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-191.dae
+  artifactKey: Guid(545446e2f2e4d4c7f925c8936fbad825) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-191.dae using Guid(545446e2f2e4d4c7f925c8936fbad825) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96d4dcabfe3ea412e023a61998e5a312') in 0.0256133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-173.dae
+  artifactKey: Guid(354bc15efa9044d5eb2227ff373468c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-173.dae using Guid(354bc15efa9044d5eb2227ff373468c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a4bcad0a69cb46f733e1de14b3885db') in 0.0311077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-231.dae
+  artifactKey: Guid(3251997b49eb044cf9ff59bed5b9bcff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-231.dae using Guid(3251997b49eb044cf9ff59bed5b9bcff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21a8379581066b2edd64f04e39cc70f4') in 0.0274911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-214.dae
+  artifactKey: Guid(458b46cc9b6314af8a225a47285eabe1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-214.dae using Guid(458b46cc9b6314af8a225a47285eabe1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f42d06db0d08246480d62fed88af6878') in 0.0284241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-208.dae
+  artifactKey: Guid(272ba23c3eb7a4182a318e0910d6c810) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-208.dae using Guid(272ba23c3eb7a4182a318e0910d6c810) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9070739e4e19ce8107c74dd7297b06bb') in 0.0283396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-187.dae
+  artifactKey: Guid(67b3438624ba04fb5918b1cb75fa2f5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-187.dae using Guid(67b3438624ba04fb5918b1cb75fa2f5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f2e7d93d0f8a833f67fb4dd7447089e') in 0.0294145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-248.dae
+  artifactKey: Guid(68f2255cda64b4792a41a51bc53ad360) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-248.dae using Guid(68f2255cda64b4792a41a51bc53ad360) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92c5aa56660ed57ebf5a92010cd714f8') in 0.0280456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-185.dae
+  artifactKey: Guid(31ca097fa67f64b999f5c52e58069a80) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-185.dae using Guid(31ca097fa67f64b999f5c52e58069a80) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac23071b720ad77e1ffac3ae03b76072') in 0.0247701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-203.dae
+  artifactKey: Guid(8750f4eee924041c68af7759e2ab10a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-203.dae using Guid(8750f4eee924041c68af7759e2ab10a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4277088b192cfd92ba377b0aeef0277e') in 0.0243482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-241.dae
+  artifactKey: Guid(9c3dd2a364e794c25a410ab802807bf0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-241.dae using Guid(9c3dd2a364e794c25a410ab802807bf0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39b6aa99807852c0c658a428fb66f8b0') in 0.0320978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-264.dae
+  artifactKey: Guid(9b5d637b902494f66bb54392078100a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-264.dae using Guid(9b5d637b902494f66bb54392078100a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9820428dcb2592cb95152ff0610d26c') in 0.0312131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-165.dae
+  artifactKey: Guid(5e7906d8ff2b24362a59f20a26ef9c12) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-165.dae using Guid(5e7906d8ff2b24362a59f20a26ef9c12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11d8e5560195a582d6b02da46bb28f4f') in 0.023091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-222.dae
+  artifactKey: Guid(34b95fbb5aca140c497f70fd88895ede) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-222.dae using Guid(34b95fbb5aca140c497f70fd88895ede) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ddc463bdb98f579cd3761f51d1331705') in 0.0239263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-232.dae
+  artifactKey: Guid(4923e78b1e1af4c17a1768b8bd671836) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-232.dae using Guid(4923e78b1e1af4c17a1768b8bd671836) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '311d76bcb3aaaece91f7d643a2d9f901') in 0.0204785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-297.dae
+  artifactKey: Guid(04cf29e55934c483688482dcb1eb45c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-297.dae using Guid(04cf29e55934c483688482dcb1eb45c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d2ef53fb83754a31b40178d39e5c2b1') in 0.0202277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-328.dae
+  artifactKey: Guid(95e6c7652f1ba4c388a0dacc201662a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-328.dae using Guid(95e6c7652f1ba4c388a0dacc201662a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35cc81a142e04369472c75c69aea77f7') in 0.0285021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-288.dae
+  artifactKey: Guid(ab48e659650e14960864a8c917f3aaa9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-288.dae using Guid(ab48e659650e14960864a8c917f3aaa9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1606caa2a95360284b36576127d1ce3') in 0.0265885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-340.dae
+  artifactKey: Guid(af2d963922db04fd39a4b42e251f933a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-340.dae using Guid(af2d963922db04fd39a4b42e251f933a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef86d07a3b753ff42538ba0cb13f4865') in 0.0262772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-312.dae
+  artifactKey: Guid(28fac484323ef4fa9b3b3afccde4fbc9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-312.dae using Guid(28fac484323ef4fa9b3b3afccde4fbc9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b373507ff602a1962bb260187a2beb3') in 0.0207155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-317.dae
+  artifactKey: Guid(081abaf0c928242939dbade9f30d5e3b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-317.dae using Guid(081abaf0c928242939dbade9f30d5e3b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8515a40529172aa8112676895ff7e060') in 0.0274152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-271.dae
+  artifactKey: Guid(9fc20fb0d044b4677ab3da82dd9f1e9d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-271.dae using Guid(9fc20fb0d044b4677ab3da82dd9f1e9d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7f0a1e68ce4675b7c51a54ed218f8e1') in 0.0228584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-304.dae
+  artifactKey: Guid(6aee0bb34d97d41999110d0fc4719d68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-304.dae using Guid(6aee0bb34d97d41999110d0fc4719d68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '127aa02b2b9dd8caadc75292907e4125') in 0.0260131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-34.dae
+  artifactKey: Guid(d423babf183d04fb58eca92af0341b24) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-34.dae using Guid(d423babf183d04fb58eca92af0341b24) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4248418828e6c65cd09666bad4f3340f') in 0.0244013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-339.dae
+  artifactKey: Guid(43afbd1f463c24146a6ad926ae8c3212) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-339.dae using Guid(43afbd1f463c24146a6ad926ae8c3212) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '25d3ea0bfe908b09b965f9c3b4a9201f') in 0.0262751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-309.dae
+  artifactKey: Guid(ddd29b657afc04154ab2fb09cd71d3b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-309.dae using Guid(ddd29b657afc04154ab2fb09cd71d3b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85dacae3d18a54e73bfce118d28fd011') in 0.0339989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-281.dae
+  artifactKey: Guid(f4508242156cc457f9adacc697db904d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-281.dae using Guid(f4508242156cc457f9adacc697db904d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00d05f01084de999436a6c7b9c35d65d') in 0.0219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-327.dae
+  artifactKey: Guid(3fda4194726144991b561187228a22ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-327.dae using Guid(3fda4194726144991b561187228a22ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5c9b10fb9bf9cba04583ebf28f7efb8') in 0.0231535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-287.dae
+  artifactKey: Guid(cc88019e500754cec9b0a18fc47cf158) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-287.dae using Guid(cc88019e500754cec9b0a18fc47cf158) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf568c0d5401ce46f5aeae79e49681e7') in 0.0262242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-308.dae
+  artifactKey: Guid(3d0622c73f9c24f3197f45dc8945008d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-308.dae using Guid(3d0622c73f9c24f3197f45dc8945008d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2232ac8837233e75c080e40c9dd3f2ad') in 0.0241825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-302.dae
+  artifactKey: Guid(7b652e7ce59f8417481289b144b6a75e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-302.dae using Guid(7b652e7ce59f8417481289b144b6a75e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e6f7c0a2f0916d22807a6adf0c34176') in 0.0218318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-289.dae
+  artifactKey: Guid(1db46ce6324004c05a70eb5c27cb50a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-289.dae using Guid(1db46ce6324004c05a70eb5c27cb50a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ddb386afa7c8058d0119d24cf1df8e16') in 0.0222023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-31.dae
+  artifactKey: Guid(71612faf8675b4c9fa2125c39db08eff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-31.dae using Guid(71612faf8675b4c9fa2125c39db08eff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae414a17f072aa8730361471b30e6a61') in 0.0267327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-29.dae
+  artifactKey: Guid(e0ab79c9f53a14718b17459c09bbab5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-29.dae using Guid(e0ab79c9f53a14718b17459c09bbab5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87aefca729f383986dbc2e4427455f75') in 0.0293761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-336.dae
+  artifactKey: Guid(935b98b8a03bf4123a965d464e052c5a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-336.dae using Guid(935b98b8a03bf4123a965d464e052c5a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '168d860927f967e092e12c97ee09d284') in 0.0215199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-299.dae
+  artifactKey: Guid(b44a406f4595e44cfa7dde7651bf7590) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-299.dae using Guid(b44a406f4595e44cfa7dde7651bf7590) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '319bd7183981e4e8aff13f0edc598e8e') in 0.0215667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-293.dae
+  artifactKey: Guid(c291d6e970a934f1dbec7ef80ae3571e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-293.dae using Guid(c291d6e970a934f1dbec7ef80ae3571e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd76bb7140d24e6b9be58f79cdef5a92') in 0.0204671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-223.dae
+  artifactKey: Guid(0411709ed54984ec79dcc5c2bcd9cb1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-223.dae using Guid(0411709ed54984ec79dcc5c2bcd9cb1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f06d8d3761bcbe58e9b6249e39515b86') in 0.0277069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-313.dae
+  artifactKey: Guid(7b5333f0d0e2a4b06b5bde34031ea0bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-313.dae using Guid(7b5333f0d0e2a4b06b5bde34031ea0bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af1b07484c99fa71852e2b7dd65e00b3') in 0.0216074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-188.dae
+  artifactKey: Guid(bc7f51fc5ec27496a926fff12758f295) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-188.dae using Guid(bc7f51fc5ec27496a926fff12758f295) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea26d165b2f1eebe301be76d819f358a') in 0.0216974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-184.dae
+  artifactKey: Guid(3e7c401d07d32431ca152038b5be4e6a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-184.dae using Guid(3e7c401d07d32431ca152038b5be4e6a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dbae029cc5cbc97bb24822ca9c9b723e') in 0.0263153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-305.dae
+  artifactKey: Guid(3948737de049748bc820df53df64b9ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-305.dae using Guid(3948737de049748bc820df53df64b9ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8fce8e82f53b56f707b0c0970e74914c') in 0.0215928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-190.dae
+  artifactKey: Guid(7adb872b707ca4a62b031b6e179b7980) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-190.dae using Guid(7adb872b707ca4a62b031b6e179b7980) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0d7f52be1628a0d7e389f86828491cf') in 0.0259543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/West49thStreet.mat
+  artifactKey: Guid(97876a309a5a34f448f5bcc2d6f29f2c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/West49thStreet.mat using Guid(97876a309a5a34f448f5bcc2d6f29f2c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f173b20dffcd3850760bdd26f249f3db') in 0.0337543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-342.dae
+  artifactKey: Guid(b01c75a6678054f94b74929bd93be31c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-342.dae using Guid(b01c75a6678054f94b74929bd93be31c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9aa3dd966ffa6286d9ffddb8a68cb31e') in 0.0226957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-255.dae
+  artifactKey: Guid(5e3c92db286774f1d80641c4f69b7944) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-255.dae using Guid(5e3c92db286774f1d80641c4f69b7944) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e7cff35a5309fa6cd0af0c73306e504') in 0.0250082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-24.dae
+  artifactKey: Guid(a6831b59ad03141b78495d50f8bf3c14) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-24.dae using Guid(a6831b59ad03141b78495d50f8bf3c14) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c544a66bcd17d1bfba843f2718ce28cc') in 0.0225674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-210.dae
+  artifactKey: Guid(503f328fffe144a2397dda997170900b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-210.dae using Guid(503f328fffe144a2397dda997170900b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63ec46754b4224c34596f925c2bd1760') in 0.0244031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-140.dae
+  artifactKey: Guid(cd48b116c8b444e999c7fa626a248c0c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-140.dae using Guid(cd48b116c8b444e999c7fa626a248c0c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2379b23395315ea215f2cbd08dffe97') in 0.0224386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-123.dae
+  artifactKey: Guid(1577b6a909a3b4bcbacec1d010848b66) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-123.dae using Guid(1577b6a909a3b4bcbacec1d010848b66) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'caf1d3b14eddfeede10d6807e1a58a7f') in 0.0275027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-334.dae
+  artifactKey: Guid(345448e057bf34aafa0768737821bba5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-334.dae using Guid(345448e057bf34aafa0768737821bba5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6dc09950956aa147877aa6e1010fb1a5') in 0.020281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-42.dae
+  artifactKey: Guid(cb4eddaa6717940af864e247325b3d07) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-42.dae using Guid(cb4eddaa6717940af864e247325b3d07) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae7e01f3150d40f7003f725416a8ab1f') in 0.0252824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-410.dae
+  artifactKey: Guid(047471380db944e75a3b3f21b7f694fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-410.dae using Guid(047471380db944e75a3b3f21b7f694fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a204f562af4d4dfcf20ede5fc18436a') in 0.0222574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-362.dae
+  artifactKey: Guid(9f98ac1fa383f49baaca3929c28f280e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-362.dae using Guid(9f98ac1fa383f49baaca3929c28f280e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '702cca80da8deea4843a0458b77c0833') in 0.0324102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-423.dae
+  artifactKey: Guid(be72d41c62eb04508828c174de824a57) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-423.dae using Guid(be72d41c62eb04508828c174de824a57) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78ab584ff39d0253ef82bccd2ae05f94') in 0.024253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-351.dae
+  artifactKey: Guid(35bd97e7b66aa4367835d0121fe0c4e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-351.dae using Guid(35bd97e7b66aa4367835d0121fe0c4e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c0e64ea86519b256ed49c03bcb0e033') in 0.0234403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-382.dae
+  artifactKey: Guid(91839e26c84e044d3b4964e5dde044c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-382.dae using Guid(91839e26c84e044d3b4964e5dde044c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40ea998473fb6d72a952d4dbe829b002') in 0.0240929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-377.dae
+  artifactKey: Guid(9e19b8e8c9e444cc69ad8edee3df6a57) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-377.dae using Guid(9e19b8e8c9e444cc69ad8edee3df6a57) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b4261d81766f248aff3001cbc184b435') in 0.0256813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-428.dae
+  artifactKey: Guid(d2b5b311a33374fc8a1f989a7434b3eb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-428.dae using Guid(d2b5b311a33374fc8a1f989a7434b3eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e373f16d9a635d5718583fec2251e7b') in 0.0313615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-383.dae
+  artifactKey: Guid(aa05724a83c4f42b19751adab0dc1be6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-383.dae using Guid(aa05724a83c4f42b19751adab0dc1be6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f869d26afe5b79fb9284feaafd930b5') in 0.0280248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-39.dae
+  artifactKey: Guid(f36c4722d177048c68c138b868f8d21b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-39.dae using Guid(f36c4722d177048c68c138b868f8d21b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '890dbf95d853045cccad22f5835d3b1b') in 0.0267608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-415.dae
+  artifactKey: Guid(bd10d9bf8b0b84b2c93b53a5409cdee7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-415.dae using Guid(bd10d9bf8b0b84b2c93b53a5409cdee7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4bc635382af1314b13e2a245175dfacb') in 0.0248839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-370.dae
+  artifactKey: Guid(5239acac5fe8448c9a51026446b4dd0c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-370.dae using Guid(5239acac5fe8448c9a51026446b4dd0c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99717c314353aa16761aa54682a5ef2b') in 0.0285259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-411.dae
+  artifactKey: Guid(2b15a39be6e3e47a581ba4d85e9c74b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-411.dae using Guid(2b15a39be6e3e47a581ba4d85e9c74b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea5481817a693f4ef1c09081a8cc76a8') in 0.0256939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-430.dae
+  artifactKey: Guid(76fa3a644275645c48fb3d9610f94a68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-430.dae using Guid(76fa3a644275645c48fb3d9610f94a68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '614e933210bca018c4b91df09e7fe035') in 0.0271627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-376.dae
+  artifactKey: Guid(5a527432fa7184403bfee93361c68316) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-376.dae using Guid(5a527432fa7184403bfee93361c68316) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a7a9aae4362b8a752d420803d1c0d00') in 0.0207618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-414.dae
+  artifactKey: Guid(1a4f0a2f8bab84260989f49eef720940) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-414.dae using Guid(1a4f0a2f8bab84260989f49eef720940) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9910145310cbe6f2622cb0efd3b7bef') in 0.0221405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-403.dae
+  artifactKey: Guid(c41de057aadb24a04abef68d28ab5084) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-403.dae using Guid(c41de057aadb24a04abef68d28ab5084) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd77cac888845f75640b7be7ffeeb0c01') in 0.0208821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-355.dae
+  artifactKey: Guid(d70712c88de3e40a3bbfe72d654a4cb3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-355.dae using Guid(d70712c88de3e40a3bbfe72d654a4cb3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '985e61e47c822e699c261558e6c5f0d9') in 0.0266223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-433.dae
+  artifactKey: Guid(48f45697bb66c4f1fb4793e2c110d3bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-433.dae using Guid(48f45697bb66c4f1fb4793e2c110d3bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3340b3fd052c380514b444d2f435686') in 0.0288023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-400.dae
+  artifactKey: Guid(36c9d3e4fb7db471b85492289d14e873) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-400.dae using Guid(36c9d3e4fb7db471b85492289d14e873) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8abf983daededfec2b85fb04f6aa3a66') in 0.0225508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-399.dae
+  artifactKey: Guid(76147b142808e44c891435b64f82d9d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-399.dae using Guid(76147b142808e44c891435b64f82d9d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ecae9664c436d24f6facd43d07de18ae') in 0.0269414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-40.dae
+  artifactKey: Guid(0871edee079494219b558c619977a819) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-40.dae using Guid(0871edee079494219b558c619977a819) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '269d7006bfb295909a50d456a3c0fa82') in 0.0211058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-41.dae
+  artifactKey: Guid(8f939e9851c244c759a1b163902318d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-41.dae using Guid(8f939e9851c244c759a1b163902318d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8ccc2c878e89792332185ab84a44f45') in 0.0250436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-396.dae
+  artifactKey: Guid(0e1c5f7d4ffd2405bad502f66a380869) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-396.dae using Guid(0e1c5f7d4ffd2405bad502f66a380869) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '761ac12f63150abaf50a9219ef9c9e37') in 0.0267512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-393.dae
+  artifactKey: Guid(3d4761eb7c00b42d68d673d9de3870cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-393.dae using Guid(3d4761eb7c00b42d68d673d9de3870cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21fa8a0bddde9d947be86bb60ef6d11b') in 0.0258863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-431.dae
+  artifactKey: Guid(10a1a3332a6534c4eb871711e0f274df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-431.dae using Guid(10a1a3332a6534c4eb871711e0f274df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'caefcb48915961002b3387e5e029aead') in 0.0276547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-371.dae
+  artifactKey: Guid(9620b7c2a222b444bb700f8d022f0306) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-371.dae using Guid(9620b7c2a222b444bb700f8d022f0306) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60f2c27fd98954294fdf1c244c6de806') in 0.0255217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-398.dae
+  artifactKey: Guid(66b6a3ec8e54c48608f33302d2ae129f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-398.dae using Guid(66b6a3ec8e54c48608f33302d2ae129f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9041eb56737ee3670ba80a57ffe33c12') in 0.0248306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-413.dae
+  artifactKey: Guid(cce33c6ccf8dd4f38b0fadd63786c321) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-413.dae using Guid(cce33c6ccf8dd4f38b0fadd63786c321) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '86769615c77971b0fd3681dbeb75df13') in 0.0228467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-443.dae
+  artifactKey: Guid(2d47717f499e540288ef8ced11a244dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-443.dae using Guid(2d47717f499e540288ef8ced11a244dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0377235f9950c31a8e9c0442a3cd11f4') in 0.0271535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-45.dae
+  artifactKey: Guid(8e3487039b2ca47c9a203a81cade7c35) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-45.dae using Guid(8e3487039b2ca47c9a203a81cade7c35) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a07bba5930177865f56ba9a9649f5ac') in 0.0230175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-465.dae
+  artifactKey: Guid(09ffc1499a00c46e189fae9eb0d06250) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-465.dae using Guid(09ffc1499a00c46e189fae9eb0d06250) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '330f9c7ec315dc6c2d608405b838e1bc') in 0.0265991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-507.dae
+  artifactKey: Guid(1e73416df220841129780449b1ee3f3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-507.dae using Guid(1e73416df220841129780449b1ee3f3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce0e0a8fee8c9c995ed3e07e9b27bf07') in 0.0276058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-441.dae
+  artifactKey: Guid(dbc0861b43b674fc8b367eea70606297) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-441.dae using Guid(dbc0861b43b674fc8b367eea70606297) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9991d43a946c1cbab875eab7aa737505') in 0.0286542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-436.dae
+  artifactKey: Guid(0064317a8840443fca41dad3484ff41c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-436.dae using Guid(0064317a8840443fca41dad3484ff41c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fbc5f8747b2772e9914e12365653e9b6') in 0.0269269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-474.dae
+  artifactKey: Guid(121da47fe343948baa5c0a9e546a5280) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-474.dae using Guid(121da47fe343948baa5c0a9e546a5280) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d858955a81b88ca7e7aab67809e98e8') in 0.0329282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-467.dae
+  artifactKey: Guid(598db396fbd8341969a7378028428224) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-467.dae using Guid(598db396fbd8341969a7378028428224) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37a4e2a823eafb41ab7331d1a2dacec0') in 0.0259018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-501.dae
+  artifactKey: Guid(7dc98350035b84546b05a95be1f82761) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-501.dae using Guid(7dc98350035b84546b05a95be1f82761) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f46d5ed284cc4d63f4ae592a099569c') in 0.0274542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-483.dae
+  artifactKey: Guid(fdb1d6401fd4443f4b87b1c99dea9783) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-483.dae using Guid(fdb1d6401fd4443f4b87b1c99dea9783) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a015ba4f60f81acdf4eca3bc40250d36') in 0.0260116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-442.dae
+  artifactKey: Guid(35bbb9515c3f1477f8a89455ab492ce2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-442.dae using Guid(35bbb9515c3f1477f8a89455ab492ce2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18e1d441b4203852cbe1c4bb1290fd41') in 0.0215923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-461.dae
+  artifactKey: Guid(a700a536a40394e60949dde116760209) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-461.dae using Guid(a700a536a40394e60949dde116760209) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0425d2912610d7bf8a7afb8273759ed8') in 0.0245681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-447.dae
+  artifactKey: Guid(83292a1ab293149a3bd9067ee5b31215) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-447.dae using Guid(83292a1ab293149a3bd9067ee5b31215) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f01b447e59c50ca4527a2742390d247f') in 0.0212292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-489.dae
+  artifactKey: Guid(42857c33150a14061accf341550bbbb9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-489.dae using Guid(42857c33150a14061accf341550bbbb9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dcb23243182bfa328d8b9d768c372004') in 0.0220567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-456.dae
+  artifactKey: Guid(d79e0b47539d143bbb8b5345eb395f0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-456.dae using Guid(d79e0b47539d143bbb8b5345eb395f0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d961dca70169c086f64fa27e9dc295e') in 0.0202961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-48.dae
+  artifactKey: Guid(6c0915f4aa4f64b099c712390a165eb9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-48.dae using Guid(6c0915f4aa4f64b099c712390a165eb9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ceebb7be86df4fe98a4de11b97d6a67') in 0.0271274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-439.dae
+  artifactKey: Guid(06480b4b3242a4c03a819660ef64a120) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-439.dae using Guid(06480b4b3242a4c03a819660ef64a120) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a80168655c8bc9900c91e446ce0ce71c') in 0.0284445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-492.dae
+  artifactKey: Guid(4be5df9c8f5bc43979c66780e4195b5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-492.dae using Guid(4be5df9c8f5bc43979c66780e4195b5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4570cf7583eb7e8c2da66f43bd4132f6') in 0.0256983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-493.dae
+  artifactKey: Guid(438919de60c914d61a45f788e771a13c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-493.dae using Guid(438919de60c914d61a45f788e771a13c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ee3ff313bf18664f2a76dead8612b69') in 0.0251661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-5.dae
+  artifactKey: Guid(79ef13a1a033b485996e36a1416f5e2a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-5.dae using Guid(79ef13a1a033b485996e36a1416f5e2a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1957882ab4ae08a495d573bace960961') in 0.0197939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-487.dae
+  artifactKey: Guid(b1460af1b1b3c479bacd6eb6cf5e50b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-487.dae using Guid(b1460af1b1b3c479bacd6eb6cf5e50b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd031ffb60256ec7843961a1b97ac1a4a') in 0.0297696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-457.dae
+  artifactKey: Guid(138ade627b0374b19a97849922f2f82a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-457.dae using Guid(138ade627b0374b19a97849922f2f82a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76b8360693b9c455bd796e3d78938e7d') in 0.0229185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-454.dae
+  artifactKey: Guid(6645347eda42c49feaf4a82820dcbde7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-454.dae using Guid(6645347eda42c49feaf4a82820dcbde7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '499366a5e204cd26dab4a45c9f4570ae') in 0.0274304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-466.dae
+  artifactKey: Guid(f8ef848cec187418894035170dc6a63d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-466.dae using Guid(f8ef848cec187418894035170dc6a63d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd339b074e15d516b79b42eaefc8fe89a') in 0.0252567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-470.dae
+  artifactKey: Guid(6580a6bd142d44d0f9a3973641aa6e94) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-470.dae using Guid(6580a6bd142d44d0f9a3973641aa6e94) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59dfe0535521010515be306d5932e915') in 0.0280645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-477.dae
+  artifactKey: Guid(f54e1e806d7bc499dac4fe26b4a0688e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-477.dae using Guid(f54e1e806d7bc499dac4fe26b4a0688e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '929ab8759d110707243ae742af710624') in 0.0264723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-503.dae
+  artifactKey: Guid(3e186b2257acc44ef9a486a4bbba9a47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-503.dae using Guid(3e186b2257acc44ef9a486a4bbba9a47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4440812594f750a7bcc247931ba78614') in 0.0244191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-534.dae
+  artifactKey: Guid(23c4325438ce846268ccfc817c4333d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-534.dae using Guid(23c4325438ce846268ccfc817c4333d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5dd8e430a67d62075e4147fa34d2a6b5') in 0.0225094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-557.dae
+  artifactKey: Guid(88ddf81ce79f74b6589b0b9990384ee1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-557.dae using Guid(88ddf81ce79f74b6589b0b9990384ee1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fdaded211dfde88ee1315d9179b896de') in 0.0258673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-568.dae
+  artifactKey: Guid(232d371df84ff468aad2f02336ef89b6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-568.dae using Guid(232d371df84ff468aad2f02336ef89b6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c3f28d3eb6de7922183ff5ea4f05908') in 0.0187175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-51.dae
+  artifactKey: Guid(601961a3b262446c990792e7ca4f8043) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-51.dae using Guid(601961a3b262446c990792e7ca4f8043) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50430017f963c757791c02cc43bda4f6') in 0.0286795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-524.dae
+  artifactKey: Guid(75bbbb754112c4984aa7d3e264a7c840) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-524.dae using Guid(75bbbb754112c4984aa7d3e264a7c840) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '774c0b14e0cf76ffc18ddaf06c408879') in 0.0228668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-511.dae
+  artifactKey: Guid(2bc8fa79c51aa4850a507cde0a242a47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-511.dae using Guid(2bc8fa79c51aa4850a507cde0a242a47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29ec5fc6265b7f2feec61191485625cb') in 0.0280855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-529.dae
+  artifactKey: Guid(156049c068e6d463593b4dd3f7aca5b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-529.dae using Guid(156049c068e6d463593b4dd3f7aca5b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'abf0ee8ebd2b78611bbe9862fd586bc3') in 0.0241648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-516.dae
+  artifactKey: Guid(2add481bc1d6f4d5f9239c0b98b6d6c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-516.dae using Guid(2add481bc1d6f4d5f9239c0b98b6d6c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2157b4bcf52d6b3518a87fcec5c3fb6') in 0.0273943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-560.dae
+  artifactKey: Guid(ed056c1a3f6d24af18bb7086f79b5d15) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-560.dae using Guid(ed056c1a3f6d24af18bb7086f79b5d15) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '603c75f71cb1a85a5470f9219bcf0182') in 0.023218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-572.dae
+  artifactKey: Guid(44800492f9398470c8f20435658e8c36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-572.dae using Guid(44800492f9398470c8f20435658e8c36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2bb7936ab5a6abd1e8dba6eb877bf087') in 0.0245227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-523.dae
+  artifactKey: Guid(3e5c91d65659747a7bf64afd1f9155ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-523.dae using Guid(3e5c91d65659747a7bf64afd1f9155ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2a3d5d7a63ce3ee11f59717e8018e19') in 0.0231379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-525.dae
+  artifactKey: Guid(c091c31233c38421fbdc6ee91907ab0b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-525.dae using Guid(c091c31233c38421fbdc6ee91907ab0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '372d564f9e41952f9c11c7f96d45e87c') in 0.0238741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-544.dae
+  artifactKey: Guid(a78012dad558e4afab1ff42241252c17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-544.dae using Guid(a78012dad558e4afab1ff42241252c17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd79c3eea73a84d1672675d5be36506c') in 0.0207748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-579.dae
+  artifactKey: Guid(2746da7c9796e4a29b2b6acf7a164303) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-579.dae using Guid(2746da7c9796e4a29b2b6acf7a164303) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b2a4ac51f12842636e63f5dec15d2ed') in 0.0312257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-548.dae
+  artifactKey: Guid(afc3b087b0fc548c49d0a2e9352eb53e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-548.dae using Guid(afc3b087b0fc548c49d0a2e9352eb53e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b99e0847555689e75b1c509d8e7777e2') in 0.0219361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-536.dae
+  artifactKey: Guid(2c2568fa4918742c7a437b6591fe32b6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-536.dae using Guid(2c2568fa4918742c7a437b6591fe32b6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d32d037c277e245b3579e778f7b1c56') in 0.0234739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-542.dae
+  artifactKey: Guid(311da5ec39cb145f5814c12d97449a84) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-542.dae using Guid(311da5ec39cb145f5814c12d97449a84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa1b281024541a68312937e1ea6ee109') in 0.0233035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-550.dae
+  artifactKey: Guid(6db53ff82dd9243e4b6595038c0e7e6a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-550.dae using Guid(6db53ff82dd9243e4b6595038c0e7e6a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ddd9182d3aee514efe29ef9ef429642a') in 0.021899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-541.dae
+  artifactKey: Guid(ae856c7b6989a40cdb7823ab4cd94764) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-541.dae using Guid(ae856c7b6989a40cdb7823ab4cd94764) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '214aff9ac9628fc885b610eddee0e989') in 0.0227935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-549.dae
+  artifactKey: Guid(97646ce9bc2e544e4ac4facdc862cd48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-549.dae using Guid(97646ce9bc2e544e4ac4facdc862cd48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '505b7fe896944d67a21b96ee4f254080') in 0.0215397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-564.dae
+  artifactKey: Guid(c89164f506ae64d94940dfd311161e5c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-564.dae using Guid(c89164f506ae64d94940dfd311161e5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54cbde1766744c69daf5d31ce405e874') in 0.0317023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-521.dae
+  artifactKey: Guid(9d856d13a1d104e21afc6b085eafa06b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-521.dae using Guid(9d856d13a1d104e21afc6b085eafa06b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45e53ebf43740a7f991ae070f4a37597') in 0.0241292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-556.dae
+  artifactKey: Guid(e95c91829588e4b1ca89c43674aaa065) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-556.dae using Guid(e95c91829588e4b1ca89c43674aaa065) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35606cd695b1ddf0b398a06c796df325') in 0.0269535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-540.dae
+  artifactKey: Guid(a253606ba71c64f3e87fef57aee12db5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-540.dae using Guid(a253606ba71c64f3e87fef57aee12db5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3297e119e1dfb5b3dc3db445698834c4') in 0.0243774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-530.dae
+  artifactKey: Guid(5a24ee6115ba04bfeb41d0903ace0181) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-530.dae using Guid(5a24ee6115ba04bfeb41d0903ace0181) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77ec35d51d6df81b3f5ff3fb87a4b422') in 0.0229339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-599.dae
+  artifactKey: Guid(af3df2445efb6496c95c1be265005f93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-599.dae using Guid(af3df2445efb6496c95c1be265005f93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '652cf99c0a791a5f82f40fa083925b78') in 0.0206155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-612.dae
+  artifactKey: Guid(fda16776e553740058af05e63d1b28f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-612.dae using Guid(fda16776e553740058af05e63d1b28f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96a338917289e24367c0cb787390e408') in 0.0219774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-625.dae
+  artifactKey: Guid(15c950bafea674ec58c504b6047a1d68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-625.dae using Guid(15c950bafea674ec58c504b6047a1d68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dacc9b55ce3e3859019996c4749edd3d') in 0.0236501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-615.dae
+  artifactKey: Guid(feba290b2d13f431090630981793d1a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-615.dae using Guid(feba290b2d13f431090630981793d1a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec98d567de45e59ffb94468300db3039') in 0.0325309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-638.dae
+  artifactKey: Guid(90deba094520448559cba59f3335b22f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-638.dae using Guid(90deba094520448559cba59f3335b22f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8f839bf229dd8b34a9dd33d00ab7a90') in 0.0233504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-590.dae
+  artifactKey: Guid(d5159efc6158545539e6ccf806cc5200) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-590.dae using Guid(d5159efc6158545539e6ccf806cc5200) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9525e119a7e8d41237811b468e88aa7a') in 0.0231361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-59.dae
+  artifactKey: Guid(a710474cc51e94293991e3c35f601879) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-59.dae using Guid(a710474cc51e94293991e3c35f601879) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b34b524854c6ecf4ad08eec23c34f88d') in 0.0268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-64.dae
+  artifactKey: Guid(4aa6bed35a58f4217aafbe088c7f49f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-64.dae using Guid(4aa6bed35a58f4217aafbe088c7f49f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1e51359a10482015b76af8c5500b9bf') in 0.0291694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-603.dae
+  artifactKey: Guid(901085c70f3e84aeebc6c7c680e94361) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-603.dae using Guid(901085c70f3e84aeebc6c7c680e94361) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c323fc8c292d5bf9e62ccd1261ffd8d') in 0.029752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-609.dae
+  artifactKey: Guid(ec89e7642bcc04109a9976d1ea30471f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-609.dae using Guid(ec89e7642bcc04109a9976d1ea30471f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4d005e5f541948df14e08e4cbe600fa5') in 0.023741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-61.dae
+  artifactKey: Guid(a4030e3c9bfb44f049e73bc9cec2eb72) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-61.dae using Guid(a4030e3c9bfb44f049e73bc9cec2eb72) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e9c7f9a978d0760b507cb184276c604') in 0.0260689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-600.dae
+  artifactKey: Guid(edbbe1f2cabf44cf2bc6c5bba7f3184b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-600.dae using Guid(edbbe1f2cabf44cf2bc6c5bba7f3184b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0329894caa918f37d17eea84ab5efaf2') in 0.0345558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-613.dae
+  artifactKey: Guid(38991417aafe14e4cae29db8862f1130) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-613.dae using Guid(38991417aafe14e4cae29db8862f1130) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46831c74edbc0602e42630c433254c7e') in 0.0249189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-610.dae
+  artifactKey: Guid(9709418e03a774aa7a64c6d1b5351002) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-610.dae using Guid(9709418e03a774aa7a64c6d1b5351002) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '805287a9f441931c5038f2678e576a6e') in 0.0265895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-582.dae
+  artifactKey: Guid(766ce0c5ce0c64dad894d047ecf709fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-582.dae using Guid(766ce0c5ce0c64dad894d047ecf709fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8c220405dc274724a98672f253f7a63') in 0.0240958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-631.dae
+  artifactKey: Guid(c97960903dfa14443af1bfdf6aa6612d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-631.dae using Guid(c97960903dfa14443af1bfdf6aa6612d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '207bfd47e7b2453730f2306cadd4b4b4') in 0.0392673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-614.dae
+  artifactKey: Guid(a36244303929f4090b60ef1f35a876d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-614.dae using Guid(a36244303929f4090b60ef1f35a876d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc31568519cfb9f504ff0e428145d516') in 0.0226493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-60.dae
+  artifactKey: Guid(4a3947e419177416b8f942d514ecff6e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-60.dae using Guid(4a3947e419177416b8f942d514ecff6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5529643c2ccb48a09f3c0e445ad39633') in 0.0239462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-585.dae
+  artifactKey: Guid(4439b5041ac934045996951ae4cfa180) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-585.dae using Guid(4439b5041ac934045996951ae4cfa180) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5c19e21bbe0a2cb77263fd65a353bc4') in 0.0261514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-636.dae
+  artifactKey: Guid(e8864655592314b50ae361288b85e9ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-636.dae using Guid(e8864655592314b50ae361288b85e9ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '056678b40f06e55896e457a6f81feb58') in 0.0310851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-588.dae
+  artifactKey: Guid(451284181b5a9403d82309e0592d9aa4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-588.dae using Guid(451284181b5a9403d82309e0592d9aa4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e6e34db6cd0516c9064f7bf6c2793039') in 0.0275432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-644.dae
+  artifactKey: Guid(f31f7104cf0a44c3e8f0fb99389bcfa4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-644.dae using Guid(f31f7104cf0a44c3e8f0fb99389bcfa4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4793567f031aeff8c6b17b27ce099779') in 0.0236301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-1.dae
+  artifactKey: Guid(588e9f85f95534e0eb897d6f813316b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-1.dae using Guid(588e9f85f95534e0eb897d6f813316b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '225c43a8cf815352b03436e2b820914a') in 0.0274785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-93.dae
+  artifactKey: Guid(7d2c625f3d989499a9fbf021c4d1459c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-93.dae using Guid(7d2c625f3d989499a9fbf021c4d1459c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8cdd04b9671ac63eacd198de39823b7f') in 0.0247648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-656.dae
+  artifactKey: Guid(b8845b8a92ddc46d7a321f21609009fc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-656.dae using Guid(b8845b8a92ddc46d7a321f21609009fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99616046654be04d8dc79d558cb3cd84') in 0.0214866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-67.dae
+  artifactKey: Guid(9f6700b78dadc45ccbe1397b04aa243d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-67.dae using Guid(9f6700b78dadc45ccbe1397b04aa243d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9d4b5affd2b16f3c44132057dd305ac') in 0.0263352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-646.dae
+  artifactKey: Guid(3e6bf61acc65845279955128ec0040c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-646.dae using Guid(3e6bf61acc65845279955128ec0040c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '085315db8a74da413ccbd86a853bac45') in 0.0295792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-97.dae
+  artifactKey: Guid(ae6ced6c41cba45b08469ef5a3f1a030) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-97.dae using Guid(ae6ced6c41cba45b08469ef5a3f1a030) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '26e9d8fcf2a29f920fd33ac8d3ea065b') in 0.0203822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-74.dae
+  artifactKey: Guid(1ec7cda13807946c1a55c1ecbc90e86d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-74.dae using Guid(1ec7cda13807946c1a55c1ecbc90e86d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9eb9138deb981fb190165950f531edb1') in 0.0260919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-647.dae
+  artifactKey: Guid(9c6b4da267ec944468c498fa60795762) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-647.dae using Guid(9c6b4da267ec944468c498fa60795762) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dae105ad688641d57abfac9c72e88e86') in 0.0316428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-81.dae
+  artifactKey: Guid(319d262a8aa584600918b7305be8a018) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-81.dae using Guid(319d262a8aa584600918b7305be8a018) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76ed5d78744cf089d52ab8889eec6ed0') in 0.026074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-94.dae
+  artifactKey: Guid(7a1d4d8b06cf54081bd345ba847a8739) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-94.dae using Guid(7a1d4d8b06cf54081bd345ba847a8739) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc03e1c60a78319ecd390de524adbdfd') in 0.0327399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-95.dae
+  artifactKey: Guid(4bb7baba7a8aa409a8646f5bcbbff00e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-95.dae using Guid(4bb7baba7a8aa409a8646f5bcbbff00e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a5345d6b2a3520a1e09b3faaf00d501') in 0.033244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-0.dae
+  artifactKey: Guid(424f94728fae54e0fa9d87e9be418d85) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-0.dae using Guid(424f94728fae54e0fa9d87e9be418d85) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87edaddfbe22852fb07def8d82a11ddb') in 0.0238587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-72.dae
+  artifactKey: Guid(61592daa4b31244638aa540957fa569a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-72.dae using Guid(61592daa4b31244638aa540957fa569a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be6ab92c3ddd904a52ea3ed52763633d') in 0.025084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-8.dae
+  artifactKey: Guid(cb2ad9004f9bb4670837657b1a183b26) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-8.dae using Guid(cb2ad9004f9bb4670837657b1a183b26) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56d8587c72a78f8d8adb34f5ab8f5501') in 0.0226515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-73.dae
+  artifactKey: Guid(582508ca64dc84d3abc6fb0b8c4d5b3b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-73.dae using Guid(582508ca64dc84d3abc6fb0b8c4d5b3b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8802e1727b3fbe63b46f4ee66011dcd6') in 0.0283136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-89.dae
+  artifactKey: Guid(ba81d80c3d7a04f36a752e67507500bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-89.dae using Guid(ba81d80c3d7a04f36a752e67507500bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85dace6bdf1b323067811ed56c08b8b5') in 0.0279392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-65.dae
+  artifactKey: Guid(cb3e180919f3049a1af81e7bc0f0dbd8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-65.dae using Guid(cb3e180919f3049a1af81e7bc0f0dbd8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa51fa9aa4a5d385a42ab0c8d31a7eeb') in 0.0291748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-79.dae
+  artifactKey: Guid(af09716cee51b43759da98cff6107ba7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-79.dae using Guid(af09716cee51b43759da98cff6107ba7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a74be460f22f633492fbf2974bfac52d') in 0.0265488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-205.dae
+  artifactKey: Guid(b0c5253c3972848e396fff0fb29d43bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-205.dae using Guid(b0c5253c3972848e396fff0fb29d43bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a962b6d2860d49b9ef124d858bc92ec9') in 0.0225307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-141.dae
+  artifactKey: Guid(f88dd170b395b477799030c7f214d4c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-141.dae using Guid(f88dd170b395b477799030c7f214d4c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '986a54785e0752bfd549256d2c985e51') in 0.0332247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-119.dae
+  artifactKey: Guid(00d6e12c1954a4819a03e214ec727165) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-119.dae using Guid(00d6e12c1954a4819a03e214ec727165) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1560576d44c2df1bedeb463077f447a5') in 0.033123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-133.dae
+  artifactKey: Guid(adf4eb0db8c8e4508b16ba5703a5d784) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-133.dae using Guid(adf4eb0db8c8e4508b16ba5703a5d784) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d4d7ccb8518ac0783bfbd1b04204860') in 0.0368024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-110.dae
+  artifactKey: Guid(7f4587bc1c263407697b1b19b6282ff8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-110.dae using Guid(7f4587bc1c263407697b1b19b6282ff8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8255f7aab791ed004f8e26dc563a9fc') in 0.0257891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-102.dae
+  artifactKey: Guid(574eb536b33944571bc5ab3acc083c42) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-102.dae using Guid(574eb536b33944571bc5ab3acc083c42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e499e26e77e34c71665c12d2acf3a369') in 0.0247197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-126.dae
+  artifactKey: Guid(2693e536dd6c94b3fa552b3de048a8a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-126.dae using Guid(2693e536dd6c94b3fa552b3de048a8a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3dbd7067663082883519a4e241df3743') in 0.030506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-111.dae
+  artifactKey: Guid(3df4fa07fbe56402a849435d00a64ffb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-111.dae using Guid(3df4fa07fbe56402a849435d00a64ffb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf9b329ef2111b92067a9356b153a7df') in 0.0316451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-138.dae
+  artifactKey: Guid(f3d672ab3e30f4fb5ba7e8fcbd550544) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-138.dae using Guid(f3d672ab3e30f4fb5ba7e8fcbd550544) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '521e700eac62f9a915613bb3b1687e84') in 0.0358529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-144.dae
+  artifactKey: Guid(140b93c0795964d8a8b6b4d70c79d37b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-144.dae using Guid(140b93c0795964d8a8b6b4d70c79d37b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a3c4954a9b2b5a9a8aa7407afc26964') in 0.0330173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-109.dae
+  artifactKey: Guid(866aac87e5c5e4bc99c1d693c2f1dace) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-109.dae using Guid(866aac87e5c5e4bc99c1d693c2f1dace) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc4a218e638e790789f3eb9c3894f727') in 0.0285399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-101.dae
+  artifactKey: Guid(045291c604b3d4712b205f88d93480ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-101.dae using Guid(045291c604b3d4712b205f88d93480ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4b76d7d16d5d523fe8112bb0000dafd') in 0.0300705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-125.dae
+  artifactKey: Guid(77bdf3d54a8864c2b8b62234b06531be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-125.dae using Guid(77bdf3d54a8864c2b8b62234b06531be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '748de21e2743dc92095383afd6cd6ca1') in 0.0247915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-117.dae
+  artifactKey: Guid(c76d0da3c133c4750bcc3566c868fe0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-117.dae using Guid(c76d0da3c133c4750bcc3566c868fe0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ef9dfc2d607da9fb701ee3e3b205deb') in 0.0332269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-146.dae
+  artifactKey: Guid(d591ceb2c5d6c4ac68f3590c0d183912) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-146.dae using Guid(d591ceb2c5d6c4ac68f3590c0d183912) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '746d67a9e935080ac1acbe0cb0f3359e') in 0.0327166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-77.dae
+  artifactKey: Guid(76ae0f86b601f47938c3e1e94c5070e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-77.dae using Guid(76ae0f86b601f47938c3e1e94c5070e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b68418865caa491ec4308c2d31a8e3c3') in 0.0283396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-18.dae
+  artifactKey: Guid(6af0f73de23eb43fdb27eb9c24a0f940) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-18.dae using Guid(6af0f73de23eb43fdb27eb9c24a0f940) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0fe88ce3b0d2d6c65f7d247c7a6559b8') in 0.0270613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-3.dae
+  artifactKey: Guid(cd2e52a83d5ea42d098360a412890e62) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-3.dae using Guid(cd2e52a83d5ea42d098360a412890e62) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92148a14e254f4bbd75d4716cff372bc') in 0.0259042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-36.dae
+  artifactKey: Guid(342e5ab0f07c540a092f15ad6b46dea4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-36.dae using Guid(342e5ab0f07c540a092f15ad6b46dea4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '741d751f32451cf63e82a1c3a09a706f') in 0.032762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-54.dae
+  artifactKey: Guid(00dfbeefa7a064efea54b9f060b71d8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-54.dae using Guid(00dfbeefa7a064efea54b9f060b71d8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1362cdf1bd417f0f4182eeb04af764c5') in 0.0288957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-20.dae
+  artifactKey: Guid(de918ede44f4b44b592ce57fe9f4dca3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-20.dae using Guid(de918ede44f4b44b592ce57fe9f4dca3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46fb309215a0f8dce824a8876118fed5') in 0.0253099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-31.dae
+  artifactKey: Guid(5341b31038ee3464e93b85c96ec7220b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-31.dae using Guid(5341b31038ee3464e93b85c96ec7220b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8bc97f1e3977328a44bc26ca6ce92fd4') in 0.026298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-5.dae
+  artifactKey: Guid(5f8ebc2a92b554667bf4d6c66ceed188) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-5.dae using Guid(5f8ebc2a92b554667bf4d6c66ceed188) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4df46f4f33a911aa6d6586d0283d39fa') in 0.0235007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-2.dae
+  artifactKey: Guid(8b71ef082369a4656a8e19f27074d02c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-2.dae using Guid(8b71ef082369a4656a8e19f27074d02c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cff6a445ab0b756086fe9b0970d501e7') in 0.0299943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-39.dae
+  artifactKey: Guid(534185f7e150146f1b8b80e570b30384) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-39.dae using Guid(534185f7e150146f1b8b80e570b30384) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b68f9beae31e92a78663d53cad23a44e') in 0.0296605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-45.dae
+  artifactKey: Guid(419140512f2e04ad2a300ba75bdd0676) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-45.dae using Guid(419140512f2e04ad2a300ba75bdd0676) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd90fb8665d20d7e2a56e9039b7e41ce') in 0.0248689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-47.dae
+  artifactKey: Guid(c7d9e9e2fa22b4d199a8f3b1d866163f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-47.dae using Guid(c7d9e9e2fa22b4d199a8f3b1d866163f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b9aa37879b34ef38800433a25e0378a') in 0.0276272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-21.dae
+  artifactKey: Guid(117d0ac238b2c473da4678fcb055043d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-21.dae using Guid(117d0ac238b2c473da4678fcb055043d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bea35ec2963cbbadcdd01b6afec3ed95') in 0.0340756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-27.dae
+  artifactKey: Guid(3155fe53cd67b498493f36463156ecc1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-27.dae using Guid(3155fe53cd67b498493f36463156ecc1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5863826f3b7abd6eedc64bc5ce59336') in 0.0276576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-48.dae
+  artifactKey: Guid(52fdd75c433444f27995bb5957a30220) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-48.dae using Guid(52fdd75c433444f27995bb5957a30220) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4df18450c84cf6760cb3db103ad8357f') in 0.030618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-602.dae
+  artifactKey: Guid(0d3a16803bab84087a5dc9cac17ea1eb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-602.dae using Guid(0d3a16803bab84087a5dc9cac17ea1eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46f65cba0972d2367598271266145e5e') in 0.0263603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-17.dae
+  artifactKey: Guid(b4a6640af36cd408da3260c837586a2b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-17.dae using Guid(b4a6640af36cd408da3260c837586a2b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a574717e12eede3cb7be59922e458dcc') in 0.028762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-79.dae
+  artifactKey: Guid(cc12616eb539f4377bd21a1bc1a6d0e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-79.dae using Guid(cc12616eb539f4377bd21a1bc1a6d0e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a00776d586a3ebf9bf7dd2e8556989c') in 0.0221042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-70.dae
+  artifactKey: Guid(76604e5a85cab4bdc8dc8c832346024a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-70.dae using Guid(76604e5a85cab4bdc8dc8c832346024a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e86222ef224fe0b16cae249ba0bbd28e') in 0.028709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/6thAvenue.png
+  artifactKey: Guid(081e55018e34b4442bc9e37e2cc7b46a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/6thAvenue.png using Guid(081e55018e34b4442bc9e37e2cc7b46a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd497a9ffcdfde53eca8cd4cecba7763e') in 0.0570694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-88.dae
+  artifactKey: Guid(6de31309476094a1cabe2be57a25e407) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-88.dae using Guid(6de31309476094a1cabe2be57a25e407) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6fd2483a5f4757df61088049f6c017b5') in 0.0289902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-92.dae
+  artifactKey: Guid(440fcc4722755412bab99835426b79b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-92.dae using Guid(440fcc4722755412bab99835426b79b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64d0138abc1d3845a959dd0ff7e857f3') in 0.0268101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-64.dae
+  artifactKey: Guid(9ed0a32c4f30b4d0ba4c4eddbe56a476) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-64.dae using Guid(9ed0a32c4f30b4d0ba4c4eddbe56a476) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '486a32e443e6d79e595b34923085a106') in 0.0290873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-7.dae
+  artifactKey: Guid(4132c8669961e4b8cad6864196777676) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-7.dae using Guid(4132c8669961e4b8cad6864196777676) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84e48442c5798f44d6c435ac3029aea3') in 0.0267404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/7thAvenue.png
+  artifactKey: Guid(8dd14bb07d29a44b8b22a1cd23f837de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/7thAvenue.png using Guid(8dd14bb07d29a44b8b22a1cd23f837de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c20c8769d8b265a6114c7d89197a71e') in 0.0164723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/3rdAvenue.png
+  artifactKey: Guid(0d4f2fc6672924a66924411cb081f2f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/3rdAvenue.png using Guid(0d4f2fc6672924a66924411cb081f2f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a58e35d80155fdd6c7fe1431fc4e65e0') in 0.0194743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-87.dae
+  artifactKey: Guid(fdea91f2e48a04518bf02062c62ac023) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-87.dae using Guid(fdea91f2e48a04518bf02062c62ac023) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab317a6b55c4dfa6a359d0c4dea91597') in 0.0249643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-69.dae
+  artifactKey: Guid(27addba87c2094230b0280638289fb6a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-69.dae using Guid(27addba87c2094230b0280638289fb6a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df6dc66c50d9dc27c2c0e87fbcfd15ab') in 0.0303151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-8.dae
+  artifactKey: Guid(1e23e7f38ea1741408a63a98fccb837e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-8.dae using Guid(1e23e7f38ea1741408a63a98fccb837e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '604bc361c854ef8cdc5414d41f25e27e') in 0.0248039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-98.dae
+  artifactKey: Guid(d9499ba983bb4449f82c27226a829032) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-98.dae using Guid(d9499ba983bb4449f82c27226a829032) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fde1bbd57c9b46b79306a6ad6874a059') in 0.0241243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-71.dae
+  artifactKey: Guid(a7fa7e0d3e42546e587addbef5b9fdd8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-71.dae using Guid(a7fa7e0d3e42546e587addbef5b9fdd8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35d69891d324ade0cd876487d3935ea3') in 0.0255965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-94.dae
+  artifactKey: Guid(10e4b91defb9549c1b19d6780a858099) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-94.dae using Guid(10e4b91defb9549c1b19d6780a858099) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c04fe9b8dbd4ecd0983f064265b4a5f5') in 0.0243448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-81.dae
+  artifactKey: Guid(b80eac751fd334ac193b6e8c56fbdc1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-81.dae using Guid(b80eac751fd334ac193b6e8c56fbdc1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '675f83051d0ac080977055ea38ccae98') in 0.0264758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/bus_shelter_diffuse2k.png
+  artifactKey: Guid(a205b09676c3447d5b6e00726259df50) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/bus_shelter_diffuse2k.png using Guid(a205b09676c3447d5b6e00726259df50) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '652749a48796a14dc924e845e6b72fb8') in 0.0259177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/8thAvenue.png
+  artifactKey: Guid(eaf3948859fdc48938b8fc0d90d2eecb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/8thAvenue.png using Guid(eaf3948859fdc48938b8fc0d90d2eecb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4b1b74807b5e625c3413938f05d6009') in 0.0233761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/facade_brick_5_normal_1024.png
+  artifactKey: Guid(8a2b26f4d8f664557947f396bdca5f51) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/facade_brick_5_normal_1024.png using Guid(8a2b26f4d8f664557947f396bdca5f51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96d45d3b71ccc4871bdee34454ef31e3') in 0.0206821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/East45thStreet.png
+  artifactKey: Guid(6986dad0caad243878566fc6a8c33208) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/East45thStreet.png using Guid(6986dad0caad243878566fc6a8c33208) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b50bc531b5df7abb539bc2760d138374') in 0.0150331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/facade_brick_3_diffuse_1024.png
+  artifactKey: Guid(94cc12e266d5b4c87ac352e9cc18672a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/facade_brick_3_diffuse_1024.png using Guid(94cc12e266d5b4c87ac352e9cc18672a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15ef5f07cd70dca5a0c5536352c15abd') in 0.0176812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/facade_brick_1_specularGlossiness_1024.png
+  artifactKey: Guid(9c722cc2f5ac349349c8b825346fd2b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/facade_brick_1_specularGlossiness_1024.png using Guid(9c722cc2f5ac349349c8b825346fd2b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8bc6708f008451b3cfd5e044d13336b3') in 0.0179778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/ChannelGardens.png
+  artifactKey: Guid(2ad7671d272cb4b709d232c24d13b916) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/ChannelGardens.png using Guid(2ad7671d272cb4b709d232c24d13b916) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08bbc0c02b2c3e2c8135909bd5f98722') in 0.0165639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/East55thStreet.png
+  artifactKey: Guid(827b608c1c5d148ee9286ebd2f8d5674) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/East55thStreet.png using Guid(827b608c1c5d148ee9286ebd2f8d5674) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f367a18ce9dace071c729a22ac15b322') in 0.0159173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/facade_concrete_1_normal_1024.png
+  artifactKey: Guid(6f56c53081ffb481c9c7b984b436ad4b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/facade_concrete_1_normal_1024.png using Guid(6f56c53081ffb481c9c7b984b436ad4b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ccd99e1b0ef975321b6e60b6d708ae7') in 0.0187385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/collection_box_diffuse2k.png
+  artifactKey: Guid(b7bd56dcc6f6e48378b9287749a3622e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/collection_box_diffuse2k.png using Guid(b7bd56dcc6f6e48378b9287749a3622e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2844bf85b702dc5a5b8b2fc4649e3e4') in 0.0215719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/facade_glass_1_diffuse_1024.png
+  artifactKey: Guid(9885a0f6bd9ec4708a0d452db5d33ef4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/facade_glass_1_diffuse_1024.png using Guid(9885a0f6bd9ec4708a0d452db5d33ef4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de9d6a80ab5e8608a8b75bac0f24d59f') in 0.0181388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/East46thStreet.png
+  artifactKey: Guid(c98d0e8f7aeb34ba28b48dc0afb628a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/East46thStreet.png using Guid(c98d0e8f7aeb34ba28b48dc0afb628a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6642a6962fe3e40a5424415e1d33521') in 0.015877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/facade_brick_4_specularGlossiness_1024.png
+  artifactKey: Guid(4a89ca92497174991872b63fca4d0ab5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/facade_brick_4_specularGlossiness_1024.png using Guid(4a89ca92497174991872b63fca4d0ab5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd52154931f35bf5f4ced53aac1712de3') in 0.0203602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/facade_brick_4_diffuse_1024.png
+  artifactKey: Guid(a6acdef197ef1477a9cfd94efcc1203a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/facade_brick_4_diffuse_1024.png using Guid(a6acdef197ef1477a9cfd94efcc1203a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e976ff239d490489203f49e3ca10684e') in 0.0173036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/facade_brick_3_normal_1024.png
+  artifactKey: Guid(8f14181cade7c4636beb76441b967682) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/facade_brick_3_normal_1024.png using Guid(8f14181cade7c4636beb76441b967682) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba9896a6b440bc4da73bc3eb4cb003ae') in 0.0178957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/facade_brick_2_specularGlossiness_1024.png
+  artifactKey: Guid(8baeabe5f89b245b89ac65db31623460) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/facade_brick_2_specularGlossiness_1024.png using Guid(8baeabe5f89b245b89ac65db31623460) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '861b13b607047cd0df28a8bea211e241') in 0.0193633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/facade_brick_4_normal_1024.png
+  artifactKey: Guid(37671086d46b04199a59df0911db7697) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/facade_brick_4_normal_1024.png using Guid(37671086d46b04199a59df0911db7697) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd26e2815e64f5b7f6f2be51ac6fe797c') in 0.020438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/East54thStreet.png
+  artifactKey: Guid(ae64cc2c6ede54265a9d384d30ba5f2a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/East54thStreet.png using Guid(ae64cc2c6ede54265a9d384d30ba5f2a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '26e79c63f4ec17b68e33cd53ee88bf9a') in 0.0161401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/East49thStreet.png
+  artifactKey: Guid(ca7656d112ada439ca664c76b6eb5a8b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/East49thStreet.png using Guid(ca7656d112ada439ca664c76b6eb5a8b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ac00cc0014978f05bc1d5751e382a0d') in 0.0223012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-97.dae
+  artifactKey: Guid(529ffbe88e7334c289022c575558a73b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-97.dae using Guid(529ffbe88e7334c289022c575558a73b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40cf145b2227292df0cd1c4aa0a564f2') in 0.0262118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/facade_brick_5_specularGlossiness_1024.png
+  artifactKey: Guid(3fbae8be0aea24edcbff652ed78abb7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/facade_brick_5_specularGlossiness_1024.png using Guid(3fbae8be0aea24edcbff652ed78abb7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '58d3198504125f20cfd4d82a048425bf') in 0.0188268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/model-0-0.dae
+  artifactKey: Guid(e6c9cc2034d154b14945a29f2aaf20af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/model-0-0.dae using Guid(e6c9cc2034d154b14945a29f2aaf20af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2efd2002a02893b310e18a997c68cf6') in 3.9807275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31801
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.954636 seconds.
+  path: Assets/Tree_Textures/diffuse.png
+  artifactKey: Guid(85bf537ce002d7d479923a5891c606be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/diffuse.png using Guid(85bf537ce002d7d479923a5891c606be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f75ced74ab44b975c6968506bc630554') in 0.1039978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.824249 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(0c6243fbe28743e4aa6cedb8eb2c3769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(0c6243fbe28743e4aa6cedb8eb2c3769) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f4316018617a283781de40b95b5bb8c') in 0.0015986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.951706 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(0c6243fbe28743e4aa6cedb8eb2c3769) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts using Guid(0c6243fbe28743e4aa6cedb8eb2c3769) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e84e472edf37a1284f37bf92424dd1d') in 0.006734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 19.85 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3974 unused Assets / (3.6 MB). Loaded Objects now: 4651.
+Memory consumption went from 139.4 MB to 135.7 MB.
+Total: 76.575200 ms (FindLiveObjects: 3.530800 ms CreateObjectMapping: 5.205000 ms MarkObjects: 63.023100 ms  DeleteObjects: 4.813800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 46.029522 seconds.
+  path: Assets/Scripts/NewBehaviourScript.cs
+  artifactKey: Guid(3de4e6ea970fa3448b97fac72abd335a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(3de4e6ea970fa3448b97fac72abd335a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '170f49f55a4265a8a39aef93b3ff3b25') in 0.008108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\HW1_201912312\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\HW1_201912312\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.212 seconds
+Refreshing native plugins compatible for Editor in 5.77 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.128 seconds
+Domain Reload Profiling: 2333ms
+	BeginReloadAssembly (367ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (683ms)
+		LoadAssemblies (651ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (231ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (203ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1129ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (728ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (562ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (63ms)
+Refreshing native plugins compatible for Editor in 3.94 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3988 unused Assets / (3.3 MB). Loaded Objects now: 4651.
+Memory consumption went from 143.2 MB to 139.8 MB.
+Total: 12.971300 ms (FindLiveObjects: 0.929600 ms CreateObjectMapping: 0.377700 ms MarkObjects: 8.289400 ms  DeleteObjects: 3.373300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.832315 seconds.
+  path: Assets/Scripts/NewBehaviourScript.cs
+  artifactKey: Guid(3de4e6ea970fa3448b97fac72abd335a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(3de4e6ea970fa3448b97fac72abd335a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a5d89920d9d9b8be2ff2438cffe3954') in 0.0028068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.30 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3974 unused Assets / (3.3 MB). Loaded Objects now: 4651.
+Memory consumption went from 142.8 MB to 139.4 MB.
+Total: 10.326700 ms (FindLiveObjects: 0.522200 ms CreateObjectMapping: 0.307500 ms MarkObjects: 6.725900 ms  DeleteObjects: 2.769500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.928870 seconds.
+  path: Assets/Scripts/BehaviorMain.cs
+  artifactKey: Guid(3de4e6ea970fa3448b97fac72abd335a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BehaviorMain.cs using Guid(3de4e6ea970fa3448b97fac72abd335a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58235f359dc236d014ac64e5e86bf264') in 0.0008373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\HW1_201912312\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\HW1_201912312\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.149 seconds
+Refreshing native plugins compatible for Editor in 4.23 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.125 seconds
+Domain Reload Profiling: 2266ms
+	BeginReloadAssembly (373ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (622ms)
+		LoadAssemblies (602ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (205ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1126ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (769ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (601ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Refreshing native plugins compatible for Editor in 3.39 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3988 unused Assets / (3.2 MB). Loaded Objects now: 4651.
+Memory consumption went from 145.1 MB to 141.9 MB.
+Total: 12.234500 ms (FindLiveObjects: 0.801600 ms CreateObjectMapping: 0.435300 ms MarkObjects: 7.728600 ms  DeleteObjects: 3.266700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.029341 seconds.
+  path: Assets/Scripts/BehaviorMain.cs
+  artifactKey: Guid(3de4e6ea970fa3448b97fac72abd335a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BehaviorMain.cs using Guid(3de4e6ea970fa3448b97fac72abd335a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86bdf88e7bb4872903af5bc4b5cf7316') in 0.003698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
