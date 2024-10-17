@@ -1,12 +1,154 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\user\\HW1_201912312\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD57014-3AED-99E3-0210-ECB63A61BAB5}|Assembly-CSharp.csproj|C:\\Users\\user\\HW1_201912312\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD57014-3AED-99E3-0210-ECB63A61BAB5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD57014-3AED-99E3-0210-ECB63A61BAB5}|Assembly-CSharp.csproj|C:\\Users\\user\\HW1_201912312\\assets\\scripts\\behaviormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD57014-3AED-99E3-0210-ECB63A61BAB5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\behaviormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD57014-3AED-99E3-0210-ECB63A61BAB5}|Assembly-CSharp.csproj|c:\\users\\user\\hw1_201912312\\assets\\scripts\\life.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD57014-3AED-99E3-0210-ECB63A61BAB5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\life.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD57014-3AED-99E3-0210-ECB63A61BAB5}|Assembly-CSharp.csproj|c:\\users\\user\\hw1_201912312\\assets\\scripts\\basetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD57014-3AED-99E3-0210-ECB63A61BAB5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\basetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD57014-3AED-99E3-0210-ECB63A61BAB5}|Assembly-CSharp.csproj|C:\\Users\\user\\HW1_201912312\\assets\\jammo-character\\scripts\\movementinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD57014-3AED-99E3-0210-ECB63A61BAB5}|Assembly-CSharp.csproj|solutionrelative:assets\\jammo-character\\scripts\\movementinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD57014-3AED-99E3-0210-ECB63A61BAB5}|Assembly-CSharp.csproj|C:\\Users\\user\\HW1_201912312\\assets\\scripts\\playershooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD57014-3AED-99E3-0210-ECB63A61BAB5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playershooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD57014-3AED-99E3-0210-ECB63A61BAB5}|Assembly-CSharp.csproj|C:\\Users\\user\\HW1_201912312\\Assets\\Scripts\\EnemyMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD57014-3AED-99E3-0210-ECB63A61BAB5}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\EnemyMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD57014-3AED-99E3-0210-ECB63A61BAB5}|Assembly-CSharp.csproj|C:\\Users\\user\\HW1_201912312\\assets\\scripts\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD57014-3AED-99E3-0210-ECB63A61BAB5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\HW1_201912312\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\user\\HW1_201912312\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwBsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T12:24:51.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BehaviorMain.cs",
+              "DocumentMoniker": "C:\\Users\\user\\HW1_201912312\\Assets\\Scripts\\BehaviorMain.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BehaviorMain.cs",
+              "ToolTip": "C:\\Users\\user\\HW1_201912312\\Assets\\Scripts\\BehaviorMain.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BehaviorMain.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T17:11:08.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\user\\HW1_201912312\\Assets\\Scripts\\BaseTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BaseTrigger.cs",
+              "ToolTip": "C:\\Users\\user\\HW1_201912312\\Assets\\Scripts\\BaseTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BaseTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T12:18:10.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovementInput.cs",
+              "DocumentMoniker": "C:\\Users\\user\\HW1_201912312\\Assets\\Jammo-Character\\Scripts\\MovementInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Jammo-Character\\Scripts\\MovementInput.cs",
+              "ToolTip": "C:\\Users\\user\\HW1_201912312\\Assets\\Jammo-Character\\Scripts\\MovementInput.cs",
+              "RelativeToolTip": "Assets\\Jammo-Character\\Scripts\\MovementInput.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAuwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T09:27:58.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnemyMovement.cs",
+              "DocumentMoniker": "C:\\Users\\user\\HW1_201912312\\Assets\\Scripts\\EnemyMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyMovement.cs",
+              "ToolTip": "C:\\Users\\user\\HW1_201912312\\Assets\\Scripts\\EnemyMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T12:18:36.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnemyManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\HW1_201912312\\Assets\\Scripts\\EnemyManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyManager.cs",
+              "ToolTip": "C:\\Users\\user\\HW1_201912312\\Assets\\Scripts\\EnemyManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvwoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T12:11:22.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerShooting.cs",
+              "DocumentMoniker": "C:\\Users\\user\\HW1_201912312\\Assets\\Scripts\\PlayerShooting.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerShooting.cs",
+              "ToolTip": "C:\\Users\\user\\HW1_201912312\\Assets\\Scripts\\PlayerShooting.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerShooting.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T11:46:42.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Life.cs",
+              "DocumentMoniker": "C:\\Users\\user\\HW1_201912312\\Assets\\Scripts\\Life.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Life.cs",
+              "ToolTip": "C:\\Users\\user\\HW1_201912312\\Assets\\Scripts\\Life.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Life.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T13:19:59.658Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
