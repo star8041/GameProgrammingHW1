@@ -41,7 +41,7 @@ public class EnemyManager : MonoBehaviour
 
                 spawnPosition = new Vector3(
                     playerTransform.position.x + randomDistance * Mathf.Cos(randomAngle),
-                    playerTransform.position.y + 2f,
+                    playerTransform.position.y + 4f,
                     playerTransform.position.z + randomDistance * Mathf.Sin(randomAngle)
                 );
 

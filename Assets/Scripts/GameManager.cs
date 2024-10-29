@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(WinAfterTime(15f));
+        StartCoroutine(WinAfterTime(60f));
     }
 
     IEnumerator WinAfterTime(float time)
